@@ -1,0 +1,13 @@
+{
+  "name": "swj.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wes Johnson <wes@swj.io>",
+  "license": "MIT",
+  "scripts": {
+    "push": "wrangler pages publish --project-name swj-io --branch main public"
+  },
+  "devDependencies": {
+    "wrangler": "^2.0.29"
+  }
+}
